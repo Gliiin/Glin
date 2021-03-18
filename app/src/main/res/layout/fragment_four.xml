@@ -10,12 +10,11 @@
 
     <View
         android:id="@+id/some_id"
-        android:layout_width="420dp"
-        android:layout_height="208dp"
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="2dp"
-        android:layout_marginTop="-3dp"
+        android:layout_marginTop="-1dp"
         android:background="@drawable/scr" />
 
     <View
@@ -24,9 +23,9 @@
         android:layout_height="274dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="58dp"
-        android:layout_marginTop="324dp"
-        android:background="@drawable/Circle" />
+        android:layout_marginLeft="61dp"
+        android:layout_marginTop="301dp"
+        android:background="@drawable/Kvadrat" />
 
 
 </RelativeLayout>

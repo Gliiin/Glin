@@ -11,22 +11,24 @@
     <View
         android:id="@+id/some_id"
         android:layout_width="420dp"
-        android:layout_height="208dp"
+        android:layout_height="180dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="2dp"
-        android:layout_marginTop="-3dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
         android:background="@drawable/scr" />
+
+
 
     <View
         android:id="@+id/rectangle_2"
-        android:layout_width="304dp"
-        android:layout_height="274dp"
+        android:layout_width="284dp"
+        android:layout_height="270dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="58dp"
-        android:layout_marginTop="324dp"
-        android:background="@drawable/Circle" />
+        android:layout_marginLeft="67dp"
+        android:layout_marginTop="289dp"
+        android:background="@drawable/Triangle" />
 
 
 </RelativeLayout>
