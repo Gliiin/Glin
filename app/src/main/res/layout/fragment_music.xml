@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MusicFragment"
+    android:background="@drawable/Rec">
+
+
+    <RelativeLayout
+        android:id="@+id/Ellips"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="355dp"
+        android:background="@drawable/Ellips" />
+
+    <View
+        android:id="@+id/some_id"
+        android:layout_width="match_parent"
+        android:layout_height="203dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/music" />
+
+    <View
+        android:id="@+id/ellipse_3"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="436dp"
+        android:background="@drawable/Ellips" />
+    <View
+        android:id="@+id/ellipse_1"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="517dp"
+        android:background="@drawable/Ellips"
+        />
+
+    <View
+        android:id="@+id/ellipse_6"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="598dp"
+        android:background="@drawable/Ellips" />
+    <View
+        android:id="@+id/ellipse_23"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="274dp"
+        android:background="@drawable/Ellips" />
+
+    <View
+        android:id="@+id/unnamed_rem"
+        android:layout_width="29dp"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="285dp"
+        android:background="@drawable/Nota" />
+    <View
+        android:id="@+id/TImA"
+        android:layout_width="29dp"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="365dp"
+        android:background="@drawable/Nota"
+        />
+
+    <View
+        android:id="@+id/TImA2"
+        android:layout_width="29dp"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="445dp"
+        android:background="@drawable/Nota"
+        />
+    <View
+        android:id="@+id/TImA23"
+        android:layout_width="29dp"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="525dp"
+        android:background="@drawable/Nota"
+        />
+    <View
+        android:id="@+id/TImA230"
+        android:layout_width="29dp"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="605dp"
+        android:background="@drawable/Nota"
+        />
+    <TextView
+        android:id="@+id/ima2145"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="282dp"
+        android:gravity="top"
+        android:text="Unravel"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        />
+    <TextView
+        android:id="@+id/ima21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="362dp"
+        android:gravity="top"
+        android:text="Epic sax guy"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        />
+    <TextView
+        android:id="@+id/ima212"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="442dp"
+        android:gravity="top"
+        android:text="Sorairo days"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        />
+    <TextView
+        android:id="@+id/ima2123"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="526dp"
+        android:gravity="top"
+        android:text="Whats up, people"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        />
+    <TextView
+        android:id="@+id/TimA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="610dp"
+        android:gravity="top"
+        android:text="Hiroyuki Sawao"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        />
+</FrameLayout>
