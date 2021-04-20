@@ -18,27 +18,17 @@
 
     <TextView
         android:id="@+id/time"
-        android:layout_width="134dp"
-        android:layout_height="42dp"
+        android:layout_width="189dp"
+        android:layout_height="77dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="54dp"
         android:layout_marginTop="64dp"
         android:gravity="top"
         android:text="0:00 AM"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#000000" />
 
-    <TextView
-        android:id="@+id/tima23"
-        android:layout_width="189dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="54dp"
-        android:layout_marginTop="113dp"
-        android:gravity="top"
-        android:text="Название"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     <View
         android:id="@+id/line_1"
@@ -46,8 +36,8 @@
         android:layout_height="0dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="55dp"
-        android:layout_marginTop="170dp"
+        android:layout_marginStart="-83dp"
+        android:layout_marginTop="660dp"
         android:background="@drawable/Line"
         android:backgroundTint="#FD0000"
         android:foregroundTint="#FF0000"
@@ -108,7 +98,7 @@
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="3dp"
+        android:layout_marginLeft="20dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="283dp"
         android:background="@drawable/Ellipse"
@@ -119,7 +109,7 @@
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="52dp"
+        android:layout_marginLeft="75dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="283dp"
         android:background="@drawable/Ellipse"
@@ -130,10 +120,10 @@
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="105dp"
+        android:layout_marginLeft="130dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="283dp"
-        android:background="@drawable/Ellipse""
+        android:background="@drawable/Ellipse"
         />
 
     <View
@@ -141,7 +131,7 @@
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="155dp"
+        android:layout_marginLeft="185dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="283dp"
         android:background="@drawable/Ellipse"
@@ -152,33 +142,30 @@
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="209dp"
         android:layout_alignParentTop="true"
+        android:layout_marginLeft="240dp"
         android:layout_marginTop="283dp"
-        android:background="@drawable/Ellipse"
-        />
+        android:background="@drawable/Ellipse" />
 
     <View
         android:id="@+id/ellipse_20"
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="262dp"
         android:layout_alignParentTop="true"
+        android:layout_marginLeft="295dp"
         android:layout_marginTop="283dp"
-        android:background="@drawable/Ellipse"
-        />
+        android:background="@drawable/Ellipse" />
 
     <View
         android:id="@+id/ellipse_21"
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="322dp"
         android:layout_alignParentTop="true"
+        android:layout_marginLeft="350dp"
         android:layout_marginTop="283dp"
-        android:background="@drawable/Ellipse"
-        />
+        android:background="@drawable/Ellipse" />
 
     <TextView
         android:id="@+id/time2"
@@ -186,11 +173,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="5dp"
-        android:layout_marginTop="285dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="288dp"
         android:gravity="center_vertical"
-        android:text="ПН"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        android:text="пн"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000" />
 
     <TextView
         android:id="@+id/wewe"
@@ -198,11 +186,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="57dp"
-        android:layout_marginTop="284dp"
+        android:layout_marginLeft="83dp"
+        android:layout_marginTop="288dp"
         android:gravity="center_vertical"
-        android:text="ВТ"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        android:text="вт"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000" />
 
     <TextView
         android:id="@+id/we"
@@ -210,11 +199,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="109dp"
-        android:layout_marginTop="284dp"
+        android:layout_marginLeft="138dp"
+        android:layout_marginTop="288dp"
         android:gravity="top"
-        android:text="СР"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        android:text="ср"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000" />
 
     <TextView
         android:id="@+id/qwerty"
@@ -222,11 +212,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="159dp"
-        android:layout_marginTop="287dp"
+        android:layout_marginLeft="193dp"
+        android:layout_marginTop="288dp"
         android:gravity="top"
-        android:text="ЧТ"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        android:text="чт"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000" />
 
     <TextView
         android:id="@+id/xcvbn"
@@ -234,11 +225,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="213dp"
-        android:layout_marginTop="285dp"
+        android:layout_marginLeft="247dp"
+        android:layout_marginTop="288dp"
         android:gravity="top"
-        android:text="ПT"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        android:text="пн"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000" />
 
     <TextView
         android:id="@+id/tima"
@@ -246,30 +238,32 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="264dp"
-        android:layout_marginTop="286dp"
+        android:layout_marginLeft="302dp"
+        android:layout_marginTop="288dp"
         android:gravity="top"
-        android:text="СБ"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-    />
+        android:text="сб"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000" />
+
     <TextView
         android:id="@+id/tima2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="325dp"
-        android:layout_marginTop="286dp"
+        android:layout_marginLeft="358dp"
+        android:layout_marginTop="288dp"
         android:gravity="top"
-        android:text="ВС"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        android:text="вс"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000" />
 
     <View
         android:id="@+id/ellipse_4"
-        android:layout_width="51dp"
+        android:layout_width="54dp"
         android:layout_height="54dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="13dp"
+        android:layout_marginLeft="20dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="355dp"
         android:background="@drawable/Ellips"
@@ -277,7 +271,7 @@
 
     <View
         android:id="@+id/ellipse_3"
-        android:layout_width="51dp"
+        android:layout_width="54dp"
         android:layout_height="54dp"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="20dp"
@@ -288,7 +282,7 @@
 
     <View
         android:id="@+id/ellipse_1"
-        android:layout_width="51dp"
+        android:layout_width="54dp"
         android:layout_height="54dp"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="20dp"
@@ -344,11 +338,10 @@
         android:layout_width="29dp"
         android:layout_height="33dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="24dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="366dp"
-        android:background="@drawable/Nota"
-        />
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="367dp"
+        android:background="@drawable/Nota" />
 
     <View
         android:id="@+id/removebg_pr"
