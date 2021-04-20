@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_tree"
+    app:startDestination="@id/zeroragment">
+    <fragment
+        android:id="@+id/zeroragment"
+        android:name="com.example.aaaaaaa.zeroragment"
+        android:label="zeroragment" >
+        <action
+            android:id="@+id/action_zeroragment_to_nineFragment"
+            app:destination="@id/nineFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nineFragment"
+        android:name="com.example.aaaaaaa.NineFragment"
+        android:label="NineFragment" />
+</navigation>

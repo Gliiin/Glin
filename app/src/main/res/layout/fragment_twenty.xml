@@ -1,0 +1,48 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/android_6"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/rec"
+    tools:ignore="ExtraText">
+
+    <View
+        android:id="@+id/image_2"
+        android:layout_width="425dp"
+        android:layout_height="215dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="534dp"
+        android:background="@drawable/qr" />
+
+
+    <View
+        android:id="@+id/group_17"
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="252dp"
+        android:background="@drawable/qrsss" />
+
+
+    <TextView
+        android:id="@+id/add_qr"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="260dp"
+        android:gravity="top"
+        android:text="@string/add_qr"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF" />
+</RelativeLayout>

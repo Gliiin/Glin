@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/android_6"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/rec"
+    >
+
+    <View
+        android:id="@+id/some_id"
+        android:layout_width="425dp"
+        android:layout_height="215dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/scr" />
+
+    <TextView
+        android:id="@+id/choose"
+        android:layout_width="275dp"
+        android:layout_height="28dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="262dp"
+        android:gravity="top"
+        android:text="@string/choose"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF" />
+
+    <View
+        android:id="@+id/group_16"
+        android:layout_width="48dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="251dp"
+        android:background="@drawable/b"
+        />
+
+</RelativeLayout>
