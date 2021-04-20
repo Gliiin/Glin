@@ -2,4 +2,21 @@
     <string name="app_name">AAAAAAA</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="exs">Уравнения</string>
+    <string name="memory">Память</string>
+    <string name="sequence">Последовательность</string>
+    <string name="repeat">Повторить пароль</string>
+    <string name="repeat_music">Повторение мелодии</string>
+    <string name="check">Проверка пробуждения</string>
+    <string name="choose">Выбрать из устройства</string>
+    <string name="add_qr">Добавить QR код</string>
+    <string name="repeat_223">Повторение</string>
+    <string name="vibration">Вибрация</string>
+    <string name="day1">пн</string>
+    <string name="day2">вт</string>
+    <string name="day3">ср</string>
+    <string name="day4">чт</string>
+    <string name="day5">пт</string>
+    <string name="day6">сб</string>
+    <string name="day7">вс</string>
 </resources>
